@@ -10,7 +10,9 @@ namespace ExemploBootstrapTypeaHead.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+
+            string teste = "Ok";
+            return View(teste);
         }
 
         public ActionResult About()
